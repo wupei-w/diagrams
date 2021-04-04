@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-04T13:36:40.377Z" agent="5.0 (Windows)" etag="j7nNuGRsz8-Zqlc3qDDQ" version="14.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-04T13:37:50.023Z" agent="5.0 (Windows)" etag="phrZrV7pHfz8j8XIZbdK" version="14.5.4" type="github">
   <diagram id="UK1oplZtVHk2g0x_dDSM" name="Page-1">
     <mxGraphModel dx="1944" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,10 +11,10 @@
           <mxGeometry x="560" y="240" width="200" height="240" as="geometry" />
         </mxCell>
         <mxCell id="QV4RheT-G8MWhwkYlfRH-4" value="master" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
-          <mxGeometry x="170" y="210" width="60" height="20" as="geometry" />
+          <mxGeometry x="137.5" y="210" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QV4RheT-G8MWhwkYlfRH-5" value="slave" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
-          <mxGeometry x="610" y="210" width="60" height="20" as="geometry" />
+          <mxGeometry x="630" y="210" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QV4RheT-G8MWhwkYlfRH-6" value="192.168.186.139" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
           <mxGeometry x="160" y="500" width="40" height="20" as="geometry" />
@@ -23,16 +23,16 @@
           <mxGeometry x="630" y="500" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HNmdAQJy73FJYcCBfIxi-2" value="&lt;div&gt;linux版本：&lt;/div&gt;&lt;div&gt;CentOS Linux release 7.6.1810 (Core) &lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="10" y="550" width="340" height="20" as="geometry" />
+          <mxGeometry x="10" y="565" width="340" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HNmdAQJy73FJYcCBfIxi-4" value="&lt;div&gt;mysql版本：&lt;/div&gt;&lt;div&gt;mysql-5.7.33-linux-glibc2.12-x86_64&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="610" width="440" height="20" as="geometry" />
+          <mxGeometry x="-40" y="640" width="440" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HNmdAQJy73FJYcCBfIxi-5" value="&lt;div&gt;linux版本：&lt;/div&gt;&lt;div&gt;CentOS Linux release 7.6.1810 (Core) &lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="480" y="550" width="340" height="20" as="geometry" />
+          <mxGeometry x="480" y="565" width="340" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HNmdAQJy73FJYcCBfIxi-6" value="&lt;div&gt;mysql版本：&lt;/div&gt;&lt;div&gt;mysql-5.7.33-linux-glibc2.12-x86_64&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;align=center;" vertex="1" parent="1">
-          <mxGeometry x="475" y="600" width="350" height="40" as="geometry" />
+          <mxGeometry x="475" y="620" width="350" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HNmdAQJy73FJYcCBfIxi-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=20;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HNmdAQJy73FJYcCBfIxi-7" target="HNmdAQJy73FJYcCBfIxi-11">
           <mxGeometry relative="1" as="geometry">
