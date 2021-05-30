@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-30T06:51:29.551Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="e7ieZj2-VpaPfD1ImEw2" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-30T06:51:55.869Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="jxYpqLtz26NY14B7cG2L" version="14.6.13" type="github">
   <diagram id="z8gJESnnHO9ZfwmQ3pmz" name="Page-1">
     <mxGraphModel dx="782" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,19 +11,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZvTu-sfl6U_0mAPz6xrp-2" value="power on&lt;br&gt;开机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZvTu-sfl6U_0mAPz6xrp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvTu-sfl6U_0mAPz6xrp-3" target="ZvTu-sfl6U_0mAPz6xrp-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZvTu-sfl6U_0mAPz6xrp-3" value="POST&lt;br&gt;开机自检" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="220" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZvTu-sfl6U_0mAPz6xrp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvTu-sfl6U_0mAPz6xrp-5" target="ZvTu-sfl6U_0mAPz6xrp-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZvTu-sfl6U_0mAPz6xrp-5" value="BIOS&lt;br&gt;对硬件进行检测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZvTu-sfl6U_0mAPz6xrp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvTu-sfl6U_0mAPz6xrp-7" target="ZvTu-sfl6U_0mAPz6xrp-9">
           <mxGeometry relative="1" as="geometry" />
@@ -38,7 +38,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZvTu-sfl6U_0mAPz6xrp-7" value="boot启动顺序检查，第1启动顺序" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="580" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZvTu-sfl6U_0mAPz6xrp-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvTu-sfl6U_0mAPz6xrp-9" target="ZvTu-sfl6U_0mAPz6xrp-19">
           <mxGeometry relative="1" as="geometry">
