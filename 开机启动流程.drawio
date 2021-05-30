@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-30T02:30:04.201Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="1Xd5gHahh6X46saTw1DZ" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-30T02:45:30.830Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="k7pJezIzDCOHgZM1V3ep" version="14.6.13" type="github">
   <diagram id="z8gJESnnHO9ZfwmQ3pmz" name="Page-1">
-    <mxGraphModel dx="372" dy="212" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="447" dy="255" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,34 +11,73 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZvTu-sfl6U_0mAPz6xrp-2" value="power on&lt;br&gt;开机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZvTu-sfl6U_0mAPz6xrp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvTu-sfl6U_0mAPz6xrp-3" target="ZvTu-sfl6U_0mAPz6xrp-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZvTu-sfl6U_0mAPz6xrp-3" value="POST&lt;br&gt;开机自检" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="260" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZvTu-sfl6U_0mAPz6xrp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvTu-sfl6U_0mAPz6xrp-5" target="ZvTu-sfl6U_0mAPz6xrp-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZvTu-sfl6U_0mAPz6xrp-5" value="BIOS&lt;br&gt;对硬件进行检测" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="80" width="120" height="60" as="geometry" />
+          <mxGeometry x="440" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZvTu-sfl6U_0mAPz6xrp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvTu-sfl6U_0mAPz6xrp-7" target="ZvTu-sfl6U_0mAPz6xrp-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZvTu-sfl6U_0mAPz6xrp-7" value="boot启动顺序检查，第1启动顺序" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="80" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ZvTu-sfl6U_0mAPz6xrp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvTu-sfl6U_0mAPz6xrp-9" target="ZvTu-sfl6U_0mAPz6xrp-11">
+        <mxCell id="ZvTu-sfl6U_0mAPz6xrp-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvTu-sfl6U_0mAPz6xrp-7" target="ZvTu-sfl6U_0mAPz6xrp-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZvTu-sfl6U_0mAPz6xrp-9" value="硬盘" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="190" width="120" height="60" as="geometry" />
+        <mxCell id="ZvTu-sfl6U_0mAPz6xrp-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvTu-sfl6U_0mAPz6xrp-7" target="ZvTu-sfl6U_0mAPz6xrp-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZvTu-sfl6U_0mAPz6xrp-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="300" width="120" height="60" as="geometry" />
+        <mxCell id="ZvTu-sfl6U_0mAPz6xrp-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvTu-sfl6U_0mAPz6xrp-7" target="ZvTu-sfl6U_0mAPz6xrp-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvTu-sfl6U_0mAPz6xrp-7" value="boot启动顺序检查，第1启动顺序" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvTu-sfl6U_0mAPz6xrp-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvTu-sfl6U_0mAPz6xrp-9" target="ZvTu-sfl6U_0mAPz6xrp-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="552" y="280" />
+              <mxPoint x="680" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZvTu-sfl6U_0mAPz6xrp-9" value="硬盘" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="517" y="200" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvTu-sfl6U_0mAPz6xrp-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvTu-sfl6U_0mAPz6xrp-13" target="ZvTu-sfl6U_0mAPz6xrp-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvTu-sfl6U_0mAPz6xrp-13" value="cdrom" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="597" y="200" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvTu-sfl6U_0mAPz6xrp-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZvTu-sfl6U_0mAPz6xrp-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZvTu-sfl6U_0mAPz6xrp-14" value="硬盘" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="677" y="200" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvTu-sfl6U_0mAPz6xrp-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvTu-sfl6U_0mAPz6xrp-15" target="ZvTu-sfl6U_0mAPz6xrp-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="792" y="280" />
+              <mxPoint x="680" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZvTu-sfl6U_0mAPz6xrp-15" value="硬盘" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="757" y="200" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvTu-sfl6U_0mAPz6xrp-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="290" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
