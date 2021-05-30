@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-30T06:51:11.945Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="H68uwOwluc69L9yoUagN" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-30T06:51:29.551Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="e7ieZj2-VpaPfD1ImEw2" version="14.6.13" type="github">
   <diagram id="z8gJESnnHO9ZfwmQ3pmz" name="Page-1">
-    <mxGraphModel dx="539" dy="308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -92,6 +92,9 @@
         <mxCell id="ZvTu-sfl6U_0mAPz6xrp-19" value="MBR&lt;br&gt;主引导记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="320" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ZvTu-sfl6U_0mAPz6xrp-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvTu-sfl6U_0mAPz6xrp-24" target="ZvTu-sfl6U_0mAPz6xrp-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZvTu-sfl6U_0mAPz6xrp-24" value="grub2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="420" width="120" height="60" as="geometry" />
         </mxCell>
@@ -132,6 +135,9 @@
         </mxCell>
         <mxCell id="ZvTu-sfl6U_0mAPz6xrp-39" value="login&lt;br&gt;登录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvTu-sfl6U_0mAPz6xrp-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZvTu-sfl6U_0mAPz6xrp-42" target="ZvTu-sfl6U_0mAPz6xrp-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZvTu-sfl6U_0mAPz6xrp-42" value="/boot里的文件系统的驱动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="420" width="120" height="60" as="geometry" />
