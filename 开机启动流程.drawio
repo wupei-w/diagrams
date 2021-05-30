@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-30T07:05:06.559Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="5B5h4NLTaKaZnGEDk1jt" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-30T07:06:36.846Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="R-_Qvdz5gWAaWrYhAJLt" version="14.6.13" type="github">
   <diagram id="z8gJESnnHO9ZfwmQ3pmz" name="Page-1">
     <mxGraphModel dx="782" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -145,7 +145,7 @@
         <mxCell id="ZvTu-sfl6U_0mAPz6xrp-42" value="/boot里的文件系统的驱动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZvTu-sfl6U_0mAPz6xrp-46" value="/etc/rc.local" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZvTu-sfl6U_0mAPz6xrp-46" value="/etc/rc.local&lt;br&gt;&lt;span&gt;/etc/fstab&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="620" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
