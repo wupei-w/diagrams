@@ -1,31 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2021-07-08T02:54:26.254Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="3zMnFNn6FaTqEnN1tY7q" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-08T02:56:51.557Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="__1tbBWpqURLunvd5Z_i" version="14.8.3" type="github">
   <diagram id="PokvYrnabSMIdn3npkOO" name="Page-1">
     <mxGraphModel dx="782" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JRMQzDB-zcDNLpF8u01o-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JRMQzDB-zcDNLpF8u01o-1" target="JRMQzDB-zcDNLpF8u01o-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="JRMQzDB-zcDNLpF8u01o-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JRMQzDB-zcDNLpF8u01o-1" target="JRMQzDB-zcDNLpF8u01o-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="JRMQzDB-zcDNLpF8u01o-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JRMQzDB-zcDNLpF8u01o-1" target="JRMQzDB-zcDNLpF8u01o-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JRMQzDB-zcDNLpF8u01o-1" value="snapshot and restore" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="260" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JRMQzDB-zcDNLpF8u01o-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JRMQzDB-zcDNLpF8u01o-2" target="JRMQzDB-zcDNLpF8u01o-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JRMQzDB-zcDNLpF8u01o-2" value="old es" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JRMQzDB-zcDNLpF8u01o-3" value="new es" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JRMQzDB-zcDNLpF8u01o-7" value="数据丢失" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="260" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JRMQzDB-zcDNLpF8u01o-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JRMQzDB-zcDNLpF8u01o-8" target="JRMQzDB-zcDNLpF8u01o-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JRMQzDB-zcDNLpF8u01o-8" value="index" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
