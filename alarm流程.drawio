@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-02T08:48:45.156Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="TLZAVf23bT1tucLXvJN2" version="20.8.15" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-02T08:50:50.558Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="p3LrJ1uL_WHuCuA5fauh" version="20.8.15" type="github">
   <diagram name="第 1 页" id="Kw1zBCnqG9tHCoyv4tqN">
     <mxGraphModel dx="914" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -166,7 +166,7 @@
         <mxCell id="XZRz8ud4CRZ0wjuStr5h-48" value="设置订阅者" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="1190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XZRz8ud4CRZ0wjuStr5h-49" value="continue" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="XZRz8ud4CRZ0wjuStr5h-49" value="从alarms里剔除" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
