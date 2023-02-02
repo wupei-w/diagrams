@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-02T08:38:31.460Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="0xu4TdGCSTvFfSEWZ3u4" version="20.8.15" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-02T08:39:15.162Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="YnU5ceXoh5jvx2ybIjTv" version="20.8.15" type="github">
   <diagram name="第 1 页" id="Kw1zBCnqG9tHCoyv4tqN">
     <mxGraphModel dx="823" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -84,8 +84,14 @@
         <mxCell id="XZRz8ud4CRZ0wjuStr5h-19" value="创建无数据上报alarm" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="540" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="XZRz8ud4CRZ0wjuStr5h-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XZRz8ud4CRZ0wjuStr5h-22" target="XZRz8ud4CRZ0wjuStr5h-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XZRz8ud4CRZ0wjuStr5h-22" value="只检查最后一个数据" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XZRz8ud4CRZ0wjuStr5h-25" value="最后一个数据同阈值比较" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="760" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
