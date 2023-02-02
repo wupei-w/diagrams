@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-02T09:45:47.080Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="hrCoaxfWd1Aanlh2ANnG" version="20.8.15" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-02T09:46:59.148Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="aoU93tGejAQ8vQ9SiGEI" version="20.8.15" type="github">
   <diagram name="第 1 页" id="Kw1zBCnqG9tHCoyv4tqN">
     <mxGraphModel dx="823" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -302,8 +302,14 @@
         <mxCell id="XZRz8ud4CRZ0wjuStr5h-100" value="一致性hash将告警项分配给alerter" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="280" y="1990" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="XZRz8ud4CRZ0wjuStr5h-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="XZRz8ud4CRZ0wjuStr5h-102" target="XZRz8ud4CRZ0wjuStr5h-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XZRz8ud4CRZ0wjuStr5h-102" value="将所有告警记录到detail表" style="whiteSpace=wrap;html=1;rounded=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="280" y="2090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XZRz8ud4CRZ0wjuStr5h-104" value="将发送消息记录存储到messages库" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
