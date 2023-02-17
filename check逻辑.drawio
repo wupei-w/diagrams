@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T08:32:54.623Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="wuClpXPTiaKrR_5iX-V6" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-17T08:34:43.476Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="eswP67ZDf5TKCsfR8z5c" version="20.8.20" type="github">
   <diagram name="第 1 页" id="lrrHZ4swdHIC2B0YfNaa">
-    <mxGraphModel dx="1650" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1741" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4T8ELLFSV2IHGSas_9KA-1" value="check" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="100" width="120" height="60" as="geometry" />
+          <mxGeometry x="-220" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4T8ELLFSV2IHGSas_9KA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4T8ELLFSV2IHGSas_9KA-2" target="4T8ELLFSV2IHGSas_9KA-4">
           <mxGeometry relative="1" as="geometry" />
@@ -24,7 +24,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4T8ELLFSV2IHGSas_9KA-2" value="checkv2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="100" width="120" height="60" as="geometry" />
+          <mxGeometry x="100" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4T8ELLFSV2IHGSas_9KA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4T8ELLFSV2IHGSas_9KA-3" target="4T8ELLFSV2IHGSas_9KA-5">
           <mxGeometry relative="1" as="geometry" />
@@ -36,25 +36,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4T8ELLFSV2IHGSas_9KA-5" value="比较" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="450" width="120" height="60" as="geometry" />
+          <mxGeometry x="-200" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4T8ELLFSV2IHGSas_9KA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4T8ELLFSV2IHGSas_9KA-6" target="4T8ELLFSV2IHGSas_9KA-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4T8ELLFSV2IHGSas_9KA-6" value="比较" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="450" width="120" height="60" as="geometry" />
+          <mxGeometry x="100" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4T8ELLFSV2IHGSas_9KA-13" value="创建alarm" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="294" y="570" width="120" height="60" as="geometry" />
+          <mxGeometry x="-66" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4T8ELLFSV2IHGSas_9KA-17" value="传递的参数：start(interval/duration)&lt;br&gt;alert、context" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="240" width="300" height="30" as="geometry" />
+          <mxGeometry x="-380" y="230" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4T8ELLFSV2IHGSas_9KA-18" value="返回的结果：cks,lastCks,lastCk" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="240" width="290" height="30" as="geometry" />
+          <mxGeometry x="80" y="230" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4T8ELLFSV2IHGSas_9KA-20" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="294" y="210" width="120" height="150" as="geometry" />
+          <mxGeometry x="-66" y="200" width="120" height="150" as="geometry" />
         </mxCell>
         <mxCell id="4T8ELLFSV2IHGSas_9KA-3" value="拉环比数据" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="4T8ELLFSV2IHGSas_9KA-20">
           <mxGeometry y="90" width="120" height="60" as="geometry" />
@@ -66,10 +66,39 @@
           <mxGeometry width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4T8ELLFSV2IHGSas_9KA-23" value="创建无数据上报alarm" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4T8ELLFSV2IHGSas_9KA-24" value="nodata" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4T8ELLFSV2IHGSas_9KA-3" target="4T8ELLFSV2IHGSas_9KA-23">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4T8ELLFSV2IHGSas_9KA-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4T8ELLFSV2IHGSas_9KA-25" target="4T8ELLFSV2IHGSas_9KA-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4T8ELLFSV2IHGSas_9KA-25" value="combineCheck" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4T8ELLFSV2IHGSas_9KA-26" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="470" y="200" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="4T8ELLFSV2IHGSas_9KA-27" value="拉环比数据" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="4T8ELLFSV2IHGSas_9KA-26">
+          <mxGeometry y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4T8ELLFSV2IHGSas_9KA-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="4T8ELLFSV2IHGSas_9KA-26" source="4T8ELLFSV2IHGSas_9KA-29" target="4T8ELLFSV2IHGSas_9KA-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4T8ELLFSV2IHGSas_9KA-29" value="拉数据" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="4T8ELLFSV2IHGSas_9KA-26">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4T8ELLFSV2IHGSas_9KA-31" value="创建无数据上报alarm" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4T8ELLFSV2IHGSas_9KA-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4T8ELLFSV2IHGSas_9KA-27" target="4T8ELLFSV2IHGSas_9KA-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4T8ELLFSV2IHGSas_9KA-33" value="nodata" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4T8ELLFSV2IHGSas_9KA-32">
+          <mxGeometry x="-0.1133" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
