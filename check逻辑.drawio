@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T08:31:10.201Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="hL6MwLccGU0VRr-ftLuc" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-17T08:32:07.870Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="fRT6R21H7KWbuSYA9Aye" version="20.8.20" type="github">
   <diagram name="第 1 页" id="lrrHZ4swdHIC2B0YfNaa">
     <mxGraphModel dx="1650" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,22 +36,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4T8ELLFSV2IHGSas_9KA-5" value="比较" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4T8ELLFSV2IHGSas_9KA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4T8ELLFSV2IHGSas_9KA-6" target="4T8ELLFSV2IHGSas_9KA-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4T8ELLFSV2IHGSas_9KA-6" value="比较" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4T8ELLFSV2IHGSas_9KA-13" value="创建alarm" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="294" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="294" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4T8ELLFSV2IHGSas_9KA-17" value="传递的参数：start(interval/duration)&lt;br&gt;alert、context" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-20" y="270" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4T8ELLFSV2IHGSas_9KA-18" value="返回的结果：cks,lastCks,lastCk" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="450" y="270" width="290" height="30" as="geometry" />
+          <mxGeometry x="460" y="270" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4T8ELLFSV2IHGSas_9KA-20" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="294" y="210" width="120" height="150" as="geometry" />
@@ -64,6 +64,9 @@
         </mxCell>
         <mxCell id="4T8ELLFSV2IHGSas_9KA-4" value="拉数据" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="4T8ELLFSV2IHGSas_9KA-20">
           <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4T8ELLFSV2IHGSas_9KA-23" value="创建无数据上报alarm" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="390" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
