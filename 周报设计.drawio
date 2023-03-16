@@ -1,1 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2023-03-15T07:03:29.803Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.0.6" etag="jjyjSC4V5M5Hu3VWZHhj" type="github"><diagram name="第 1 页" id="QchUaQgxUnUSesP0vfwO">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-16T08:54:28.739Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="xoAHFTiktg1WcMnEruLD" version="21.0.6" type="github">
+  <diagram name="第 1 页" id="QchUaQgxUnUSesP0vfwO">
+    <mxGraphModel dx="823" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7vh2lYpQaGlFz0si3CCl-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7vh2lYpQaGlFz0si3CCl-1" target="7vh2lYpQaGlFz0si3CCl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7vh2lYpQaGlFz0si3CCl-1" value="部门top10应用告警数量排序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="281" y="350" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7vh2lYpQaGlFz0si3CCl-3" value="应用top10告警项数量排序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="450" width="151" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7vh2lYpQaGlFz0si3CCl-9" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7vh2lYpQaGlFz0si3CCl-5" target="7vh2lYpQaGlFz0si3CCl-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7vh2lYpQaGlFz0si3CCl-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7vh2lYpQaGlFz0si3CCl-5" target="7vh2lYpQaGlFz0si3CCl-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7vh2lYpQaGlFz0si3CCl-12" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7vh2lYpQaGlFz0si3CCl-11">
+          <mxGeometry x="-0.3089" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7vh2lYpQaGlFz0si3CCl-5" value="所有告警项数量大于100" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="250" width="151" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7vh2lYpQaGlFz0si3CCl-7" value="不发送" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="282" y="250" width="149" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7vh2lYpQaGlFz0si3CCl-10" value="获取部门和tl" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="350" width="151" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7vh2lYpQaGlFz0si3CCl-13" value="部门" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7vh2lYpQaGlFz0si3CCl-14" value="个人" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7vh2lYpQaGlFz0si3CCl-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7vh2lYpQaGlFz0si3CCl-15" target="7vh2lYpQaGlFz0si3CCl-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7vh2lYpQaGlFz0si3CCl-19" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7vh2lYpQaGlFz0si3CCl-17">
+          <mxGeometry x="-0.1744" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7vh2lYpQaGlFz0si3CCl-15" value="周日均告警数量是否大于100" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7vh2lYpQaGlFz0si3CCl-16" value="根据用户名拉取top告警量" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
