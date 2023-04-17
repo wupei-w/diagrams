@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T04:01:47.207Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="x_L4AscBH3KIomV_7t8K" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-17T05:39:04.797Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="YNhJpCEEBoL-Cm6UM9ti" version="21.1.8" type="github">
   <diagram name="第 1 页" id="MnmHD803rKsfR9xc3XTJ">
     <mxGraphModel dx="1063" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -178,7 +178,7 @@
             <mxRectangle width="114" height="64" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="v8tQxLyjqCWv_DASYLoC-137" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="v8tQxLyjqCWv_DASYLoC-51">
+        <mxCell id="v8tQxLyjqCWv_DASYLoC-137" value="允许为空" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="v8tQxLyjqCWv_DASYLoC-51">
           <mxGeometry x="894" width="130" height="64" as="geometry">
             <mxRectangle width="130" height="64" as="alternateBounds" />
           </mxGeometry>
