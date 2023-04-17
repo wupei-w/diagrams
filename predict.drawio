@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T03:44:50.949Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="gdjiDi1Yp4Yxs5UlcY7g" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-17T03:47:54.556Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="wqv4S65khyZBZCMVKah4" version="21.1.8" type="github">
   <diagram name="第 1 页" id="MnmHD803rKsfR9xc3XTJ">
-    <mxGraphModel dx="1372" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="823" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,6 +75,9 @@
         <mxCell id="v8tQxLyjqCWv_DASYLoC-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v8tQxLyjqCWv_DASYLoC-28" target="v8tQxLyjqCWv_DASYLoC-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="v8tQxLyjqCWv_DASYLoC-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v8tQxLyjqCWv_DASYLoC-28" target="v8tQxLyjqCWv_DASYLoC-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="v8tQxLyjqCWv_DASYLoC-28" value="异步执行自愈套餐" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1200" y="360" width="120" height="60" as="geometry" />
         </mxCell>
@@ -82,7 +85,7 @@
           <mxGeometry x="1200" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v8tQxLyjqCWv_DASYLoC-46" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="320" y="580" width="894" height="190" as="geometry" />
+          <mxGeometry x="250" y="580" width="894" height="190" as="geometry" />
         </mxCell>
         <mxCell id="v8tQxLyjqCWv_DASYLoC-47" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="v8tQxLyjqCWv_DASYLoC-46">
           <mxGeometry width="894" height="60" as="geometry" />
@@ -215,6 +218,9 @@
         </mxCell>
         <mxCell id="v8tQxLyjqCWv_DASYLoC-132" value="预测未来1小时" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v8tQxLyjqCWv_DASYLoC-134" value="执行完是否给用户展示清理日志之后的图表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="360" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
