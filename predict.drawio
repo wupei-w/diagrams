@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T02:49:05.943Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="glT5Y7fsx6daejQyPRIX" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-17T02:55:21.044Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="mPvEKNw_3-DQMnN1VNWS" version="21.1.8" type="github">
   <diagram name="第 1 页" id="MnmHD803rKsfR9xc3XTJ">
     <mxGraphModel dx="633" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,7 +37,15 @@
         <mxCell id="v8tQxLyjqCWv_DASYLoC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v8tQxLyjqCWv_DASYLoC-17" target="v8tQxLyjqCWv_DASYLoC-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v8tQxLyjqCWv_DASYLoC-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="v8tQxLyjqCWv_DASYLoC-17" target="v8tQxLyjqCWv_DASYLoC-21">
+        <mxCell id="v8tQxLyjqCWv_DASYLoC-24" value="不执行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="v8tQxLyjqCWv_DASYLoC-22">
+          <mxGeometry x="0.0774" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v8tQxLyjqCWv_DASYLoC-23" value="执行" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="v8tQxLyjqCWv_DASYLoC-17" target="v8tQxLyjqCWv_DASYLoC-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v8tQxLyjqCWv_DASYLoC-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v8tQxLyjqCWv_DASYLoC-17" target="v8tQxLyjqCWv_DASYLoC-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="v8tQxLyjqCWv_DASYLoC-17" value="兜底判断" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -46,8 +54,23 @@
         <mxCell id="v8tQxLyjqCWv_DASYLoC-20" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1040" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="v8tQxLyjqCWv_DASYLoC-21" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="v8tQxLyjqCWv_DASYLoC-29" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v8tQxLyjqCWv_DASYLoC-21" target="v8tQxLyjqCWv_DASYLoC-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v8tQxLyjqCWv_DASYLoC-30" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v8tQxLyjqCWv_DASYLoC-21" target="v8tQxLyjqCWv_DASYLoC-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v8tQxLyjqCWv_DASYLoC-21" value="是否配置自愈" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1040" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v8tQxLyjqCWv_DASYLoC-25" value="根据增长速率计算" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v8tQxLyjqCWv_DASYLoC-27" value="提醒用户配置自愈" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v8tQxLyjqCWv_DASYLoC-28" value="执行自愈套餐" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="360" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
