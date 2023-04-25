@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-25T06:23:46.176Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="WRch4c3UAXxqL4UIHsz9" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-25T06:27:04.357Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Jd6ACO3wzo-jl5O_urXf" version="21.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1227" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1841" dy="1035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -80,6 +80,11 @@
         <mxCell id="lrxi3cdR3jTqpjhSWojQ-3" value="influxdb-proxy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="40" y="300" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="lrxi3cdR3jTqpjhSWojQ-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lrxi3cdR3jTqpjhSWojQ-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="lrxi3cdR3jTqpjhSWojQ-4" value="influxdb集群" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="120" y="520" width="120" height="60" as="geometry" />
         </mxCell>
@@ -90,9 +95,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lrxi3cdR3jTqpjhSWojQ-10" value="拉数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lrxi3cdR3jTqpjhSWojQ-9">
+        <mxCell id="lrxi3cdR3jTqpjhSWojQ-10" value="拉数据/存数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lrxi3cdR3jTqpjhSWojQ-9">
           <mxGeometry x="0.1867" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lrxi3cdR3jTqpjhSWojQ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lrxi3cdR3jTqpjhSWojQ-5" target="lrxi3cdR3jTqpjhSWojQ-19">
