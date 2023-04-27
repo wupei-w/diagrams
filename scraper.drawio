@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-27T09:24:07.062Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="7lcia0_y027MZkRWgYEh" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-27T09:24:41.798Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="JKvnZWhaWulvf75oytGq" version="21.2.1" type="github">
   <diagram name="第 1 页" id="GR3lJULI5mWMxPLvMLa0">
     <mxGraphModel dx="823" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,8 +19,8 @@
         <mxCell id="OKoF3Qmlz-CwvZrR3h_e-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OKoF3Qmlz-CwvZrR3h_e-4" target="OKoF3Qmlz-CwvZrR3h_e-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OKoF3Qmlz-CwvZrR3h_e-4" value="保留labels&lt;br&gt;遍历points" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="360" width="120" height="60" as="geometry" />
+        <mxCell id="OKoF3Qmlz-CwvZrR3h_e-4" value="config.NewConfigService" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="360" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OKoF3Qmlz-CwvZrR3h_e-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OKoF3Qmlz-CwvZrR3h_e-8" target="OKoF3Qmlz-CwvZrR3h_e-10">
           <mxGeometry relative="1" as="geometry" />
