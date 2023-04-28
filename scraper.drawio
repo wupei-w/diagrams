@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-27T09:25:58.584Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="aEsHGZY3zWcWcUIGQ7Ig" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-28T05:36:23.243Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="svMPV8zXCPLuuL4sO0N-" version="21.2.1" type="github">
   <diagram name="第 1 页" id="GR3lJULI5mWMxPLvMLa0">
     <mxGraphModel dx="823" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,20 +19,29 @@
         <mxCell id="OKoF3Qmlz-CwvZrR3h_e-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OKoF3Qmlz-CwvZrR3h_e-4" target="OKoF3Qmlz-CwvZrR3h_e-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OKoF3Qmlz-CwvZrR3h_e-4" value="config.NewConfigService" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="1">
+        <mxCell id="OKoF3Qmlz-CwvZrR3h_e-4" value="scheduler.New" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="1">
           <mxGeometry x="260" y="360" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OKoF3Qmlz-CwvZrR3h_e-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OKoF3Qmlz-CwvZrR3h_e-8" target="OKoF3Qmlz-CwvZrR3h_e-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OKoF3Qmlz-CwvZrR3h_e-8" value="config.Fetch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OKoF3Qmlz-CwvZrR3h_e-8" value="scheduler.Run" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OKoF3Qmlz-CwvZrR3h_e-10" value="加上labels，然后返回ck" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OKoF3Qmlz-CwvZrR3h_e-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OKoF3Qmlz-CwvZrR3h_e-10" target="OKoF3Qmlz-CwvZrR3h_e-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OKoF3Qmlz-CwvZrR3h_e-10" value="scheduler.assign" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OKoF3Qmlz-CwvZrR3h_e-12" value="获取任务列表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="414" y="515" width="96" height="30" as="geometry" />
+        <mxCell id="OKoF3Qmlz-CwvZrR3h_e-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OKoF3Qmlz-CwvZrR3h_e-13" target="OKoF3Qmlz-CwvZrR3h_e-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OKoF3Qmlz-CwvZrR3h_e-13" value="scheduler.exec" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OKoF3Qmlz-CwvZrR3h_e-15" value="task.Run" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="920" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
