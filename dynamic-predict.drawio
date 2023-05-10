@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-10T10:17:02.470Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="JR7gwBsEkTfXzyxvx8GG" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-10T10:22:52.851Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="lp8al-tTSzKPETRymFS5" version="21.2.9" type="github">
   <diagram name="第 1 页" id="KIdTaXLnDWTfSLqrma9a">
     <mxGraphModel dx="1266" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -144,8 +144,20 @@
         <mxCell id="EPG524D3l0xtXg4-fc6R-66" value="&lt;font color=&quot;#ff6666&quot;&gt;默认会在表达式里添加endpoint&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1746.5" y="200" width="206" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EPG524D3l0xtXg4-fc6R-67" value="遍历cks1，从cks2里找出tag相同的数据ck" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EPG524D3l0xtXg4-fc6R-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EPG524D3l0xtXg4-fc6R-67" target="EPG524D3l0xtXg4-fc6R-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPG524D3l0xtXg4-fc6R-67" value="遍历cks1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="414" y="950" width="257" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EPG524D3l0xtXg4-fc6R-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EPG524D3l0xtXg4-fc6R-69" target="EPG524D3l0xtXg4-fc6R-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EPG524D3l0xtXg4-fc6R-69" value="根据告警配置假设是&lt;br&gt;比较是&amp;gt;，触发函数是max，&lt;br&gt;从ck1中取出最大值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="463.5" y="1020" width="157" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EPG524D3l0xtXg4-fc6R-71" value="然后拿ck1与cks2中tag相同的预测数据的upper相比较，&lt;br&gt;如果ck1大于upper的数据，则触发告警" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="434" y="1100" width="217" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
