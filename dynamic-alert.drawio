@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T08:52:25.236Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.9" etag="PPBIC5GLNLJm5ry6PXoO" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-11T09:01:51.135Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="etlIIpbZ-C-HVEshSoww" version="21.2.9" type="github">
   <diagram name="第 1 页" id="X3EYqgOOTqFWyvQvBRoP">
-    <mxGraphModel>
+    <mxGraphModel dx="823" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uLSxGME1FkIHebY0g9c3-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uLSxGME1FkIHebY0g9c3-1" target="uLSxGME1FkIHebY0g9c3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uLSxGME1FkIHebY0g9c3-1" value="取值时长为1分钟，max 超出上边界 0.8" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="289" y="120" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uLSxGME1FkIHebY0g9c3-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uLSxGME1FkIHebY0g9c3-3" target="uLSxGME1FkIHebY0g9c3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uLSxGME1FkIHebY0g9c3-3" value="拉取一分钟前的实时数据cks1&lt;br&gt;拉取一分钟前的预测数据cks2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="321" y="200" width="186" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uLSxGME1FkIHebY0g9c3-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uLSxGME1FkIHebY0g9c3-5" target="uLSxGME1FkIHebY0g9c3-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uLSxGME1FkIHebY0g9c3-5" value="遍历cks1，加入获取ck1的最大值max" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="302" y="270" width="224" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uLSxGME1FkIHebY0g9c3-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uLSxGME1FkIHebY0g9c3-7" target="uLSxGME1FkIHebY0g9c3-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uLSxGME1FkIHebY0g9c3-7" value="根据相同的labels，然后遍历预测数据的ck2的points" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="275" y="340" width="278" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uLSxGME1FkIHebY0g9c3-9" value="比较max是否超过point x 0.8" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="326" y="410" width="176" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
