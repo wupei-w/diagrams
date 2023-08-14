@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T07:58:44.816Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="dcE3Q8GKEPceC06lnJjB" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-14T07:58:59.302Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="QUbeHQe8DUQ1rvQ-D9ju" version="21.6.8" type="github">
   <diagram name="第 1 页" id="zhBF9TMe9wGpLtexL3rU">
     <mxGraphModel dx="823" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="tmSFCz0zvi3VENnEucYj-4" value="&lt;font color=&quot;#999999&quot;&gt;范围&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="110" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tmSFCz0zvi3VENnEucYj-5" value="&lt;font color=&quot;#999999&quot;&gt;添加cpu规格&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tmSFCz0zvi3VENnEucYj-5" value="&lt;font color=&quot;#999999&quot;&gt;+添加cpu规格&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="140" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tmSFCz0zvi3VENnEucYj-6" value="disk" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -28,7 +28,7 @@
         <mxCell id="tmSFCz0zvi3VENnEucYj-9" value="&lt;font color=&quot;#999999&quot;&gt;名称，用&#39;,&#39;分隔&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="190" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tmSFCz0zvi3VENnEucYj-10" value="&lt;font color=&quot;#999999&quot;&gt;添加disk规格&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tmSFCz0zvi3VENnEucYj-10" value="&lt;font color=&quot;#999999&quot;&gt;+添加disk规格&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="220" width="220" height="20" as="geometry" />
         </mxCell>
       </root>
