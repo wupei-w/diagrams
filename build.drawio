@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T16:55:02.861Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="V11U3mb75LZtcyyQabxj" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T16:59:18.360Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="O7PV2r9GZs6gNNazUGx9" version="22.1.8" type="github">
   <diagram name="第 1 页" id="uKd0gvcI_EXNXb9xkZMl">
     <mxGraphModel dx="909" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,10 +59,35 @@
           <mxGeometry x="292.75" y="640" width="177.25" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5hXS_3930Pt7SvAohvSX-29" value="构建完成后，通知构建人" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="790" width="177.25" height="60" as="geometry" />
+          <mxGeometry x="292.13" y="1020" width="177.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5hXS_3930Pt7SvAohvSX-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5hXS_3930Pt7SvAohvSX-32" target="5hXS_3930Pt7SvAohvSX-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5hXS_3930Pt7SvAohvSX-35" value="SUCCESS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5hXS_3930Pt7SvAohvSX-34">
+          <mxGeometry x="-0.1549" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5hXS_3930Pt7SvAohvSX-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5hXS_3930Pt7SvAohvSX-32" target="5hXS_3930Pt7SvAohvSX-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5hXS_3930Pt7SvAohvSX-38" value="FAILURE/ABORTED" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5hXS_3930Pt7SvAohvSX-37">
+          <mxGeometry x="-0.0616" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="5hXS_3930Pt7SvAohvSX-32" value="构建日志结果是否成功" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="287.5" y="760" width="185" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5hXS_3930Pt7SvAohvSX-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5hXS_3930Pt7SvAohvSX-33" target="5hXS_3930Pt7SvAohvSX-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5hXS_3930Pt7SvAohvSX-33" value="构建完成后，更新build表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="291.25" y="900" width="177.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5hXS_3930Pt7SvAohvSX-36" value="构建失败，更新build表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="770" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
