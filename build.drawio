@@ -1,42 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T12:29:41.354Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="apNWH2F6ltSJ9dM74vJo" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T16:44:07.342Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="4jAVxAQ5_rmzyDJeQ9jI" version="22.1.8" type="github">
   <diagram name="第 1 页" id="uKd0gvcI_EXNXb9xkZMl">
     <mxGraphModel dx="909" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5hXS_3930Pt7SvAohvSX-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5hXS_3930Pt7SvAohvSX-1" target="5hXS_3930Pt7SvAohvSX-2">
+        <mxCell id="5hXS_3930Pt7SvAohvSX-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5hXS_3930Pt7SvAohvSX-1" target="5hXS_3930Pt7SvAohvSX-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5hXS_3930Pt7SvAohvSX-1" value="点击构建按钮" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5hXS_3930Pt7SvAohvSX-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5hXS_3930Pt7SvAohvSX-2" target="5hXS_3930Pt7SvAohvSX-8">
+        <mxCell id="5hXS_3930Pt7SvAohvSX-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5hXS_3930Pt7SvAohvSX-13" target="5hXS_3930Pt7SvAohvSX-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5hXS_3930Pt7SvAohvSX-2" value="开始构建" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="180" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5hXS_3930Pt7SvAohvSX-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5hXS_3930Pt7SvAohvSX-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="140" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5hXS_3930Pt7SvAohvSX-4" value="从gitlab获取分支、commit信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="110" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5hXS_3930Pt7SvAohvSX-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5hXS_3930Pt7SvAohvSX-8" target="5hXS_3930Pt7SvAohvSX-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5hXS_3930Pt7SvAohvSX-12" value="构建完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5hXS_3930Pt7SvAohvSX-11">
-          <mxGeometry x="-0.2748" y="1" relative="1" as="geometry">
+        <mxCell id="5hXS_3930Pt7SvAohvSX-18" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5hXS_3930Pt7SvAohvSX-17">
+          <mxGeometry x="-0.1381" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5hXS_3930Pt7SvAohvSX-8" value="调用jenkins" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="310" width="120" height="60" as="geometry" />
+        <mxCell id="5hXS_3930Pt7SvAohvSX-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5hXS_3930Pt7SvAohvSX-13" target="5hXS_3930Pt7SvAohvSX-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5hXS_3930Pt7SvAohvSX-10" value="把build_version写入到表里" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="440" width="120" height="60" as="geometry" />
+        <mxCell id="5hXS_3930Pt7SvAohvSX-21" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5hXS_3930Pt7SvAohvSX-20">
+          <mxGeometry x="-0.1293" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5hXS_3930Pt7SvAohvSX-13" value="当前构建job是否有正在执行" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="150" width="185" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5hXS_3930Pt7SvAohvSX-16" value="选择分支、commit（仅限线上，且在&lt;span style=&quot;font-family: Arial, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(255, 102, 0);&quot;&gt;日常或预发成功部署过&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;且还&lt;/span&gt;&lt;span style=&quot;font-family: Arial, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(255, 102, 0);&quot;&gt;没有在线上部署成功&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;过&lt;/span&gt;&lt;br&gt;）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="280" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5hXS_3930Pt7SvAohvSX-19" value="提示有正在执行的构建" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="160" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
