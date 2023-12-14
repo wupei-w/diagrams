@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T16:33:06.775Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="77PwhggAcgGWrzdjj3wU" version="22.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T16:34:39.851Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="yDyVl_XzV6XJboLdwff8" version="22.1.9" type="github">
   <diagram name="第 1 页" id="67K8c02Mb7CR_brThZ4o">
     <mxGraphModel dx="707" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="hhd8s7zhzYB81NyCpZZc-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hhd8s7zhzYB81NyCpZZc-2" target="hhd8s7zhzYB81NyCpZZc-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hhd8s7zhzYB81NyCpZZc-2" value="设置stable" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="hhd8s7zhzYB81NyCpZZc-2" value="点击设置stable" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="160" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hhd8s7zhzYB81NyCpZZc-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hhd8s7zhzYB81NyCpZZc-4" target="hhd8s7zhzYB81NyCpZZc-10">
@@ -40,6 +40,9 @@
         </mxCell>
         <mxCell id="hhd8s7zhzYB81NyCpZZc-6" value="合并基线" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hhd8s7zhzYB81NyCpZZc-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hhd8s7zhzYB81NyCpZZc-10" target="hhd8s7zhzYB81NyCpZZc-38">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hhd8s7zhzYB81NyCpZZc-10" value="将之前设置的stable构建设置为0，更新build表此次构建的stable为1" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="280" width="160" height="60" as="geometry" />
@@ -87,6 +90,9 @@
         </mxCell>
         <mxCell id="hhd8s7zhzYB81NyCpZZc-33" value="记录到operate_log表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hhd8s7zhzYB81NyCpZZc-38" value="记录到operate_log表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
