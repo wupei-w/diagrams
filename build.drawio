@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T11:39:30.197Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="_Nj-6tGv-VKZCekRou8p" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T12:29:41.354Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="apNWH2F6ltSJ9dM74vJo" version="22.1.8" type="github">
   <diagram name="第 1 页" id="uKd0gvcI_EXNXb9xkZMl">
     <mxGraphModel dx="909" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,16 +24,19 @@
         <mxCell id="5hXS_3930Pt7SvAohvSX-4" value="从gitlab获取分支、commit信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5hXS_3930Pt7SvAohvSX-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5hXS_3930Pt7SvAohvSX-6">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="140" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="5hXS_3930Pt7SvAohvSX-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5hXS_3930Pt7SvAohvSX-8" target="5hXS_3930Pt7SvAohvSX-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5hXS_3930Pt7SvAohvSX-6" value="获取应用配置、dockerfile内容" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="110" width="120" height="60" as="geometry" />
+        <mxCell id="5hXS_3930Pt7SvAohvSX-12" value="构建完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5hXS_3930Pt7SvAohvSX-11">
+          <mxGeometry x="-0.2748" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="5hXS_3930Pt7SvAohvSX-8" value="调用jenkins" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5hXS_3930Pt7SvAohvSX-10" value="把build_version写入到表里" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
