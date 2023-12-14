@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T16:50:19.504Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="NNzZ6apdETkmSkaiREgh" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T16:55:02.861Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="V11U3mb75LZtcyyQabxj" version="22.1.8" type="github">
   <diagram name="第 1 页" id="uKd0gvcI_EXNXb9xkZMl">
     <mxGraphModel dx="909" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,8 +50,19 @@
         <mxCell id="5hXS_3930Pt7SvAohvSX-24" value="调用jenkins执行job" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="292.75" y="520" width="177.25" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5hXS_3930Pt7SvAohvSX-26" value="构建完成后，通知构建人" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="5hXS_3930Pt7SvAohvSX-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5hXS_3930Pt7SvAohvSX-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380.7142857142858" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5hXS_3930Pt7SvAohvSX-26" value="1分钟调用构建状态检测" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="292.75" y="640" width="177.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5hXS_3930Pt7SvAohvSX-29" value="构建完成后，通知构建人" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="790" width="177.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5hXS_3930Pt7SvAohvSX-32" value="构建日志结果是否成功" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="760" width="185" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
