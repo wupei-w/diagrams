@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-18T12:10:43.925Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5FmvicvUl0C7vGFXt1Yw" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-18T12:11:44.939Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ojEeixT-2mtNPysHm6uD" version="22.1.11" type="github">
   <diagram name="第 1 页" id="uKd0gvcI_EXNXb9xkZMl">
     <mxGraphModel dx="1975" dy="1091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
         <mxCell id="5hXS_3930Pt7SvAohvSX-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5hXS_3930Pt7SvAohvSX-22" target="5hXS_3930Pt7SvAohvSX-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5hXS_3930Pt7SvAohvSX-22" value="创建一次新构建，往build表写入数据，将状态更新为等待构建" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="5hXS_3930Pt7SvAohvSX-22" value="创建一次新构建，往build表写入数据，将状态更新为READY" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="292.75" y="400" width="176" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UcOcCSCP4X42r92XeVJ2-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5hXS_3930Pt7SvAohvSX-24" target="UcOcCSCP4X42r92XeVJ2-7" edge="1">
@@ -109,13 +109,13 @@
         <mxCell id="UcOcCSCP4X42r92XeVJ2-7" value="发起构建是否成功" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="292.75" y="640" width="177.25" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UcOcCSCP4X42r92XeVJ2-11" value="构建失败，更新build表，将状态设置为构建失败" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="UcOcCSCP4X42r92XeVJ2-11" value="构建失败，更新build表，将状态设置为FAILURE" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="578.625" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UcOcCSCP4X42r92XeVJ2-22" target="Q_nmdHOqDNdYp2mdQ6Tv-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UcOcCSCP4X42r92XeVJ2-22" value="更新build表，将状态设置为构建中，将jenkinsId写入到build表" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="UcOcCSCP4X42r92XeVJ2-22" value="更新build表，&lt;br&gt;将状态设置为RUNNING，&lt;br&gt;将jenkinsId写入到build表" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="292.56" y="760" width="176.38" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q_nmdHOqDNdYp2mdQ6Tv-4">
