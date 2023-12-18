@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T08:41:07.266Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Yfmkh4-nBWiYzWRltwDv" version="22.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-18T11:22:35.841Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="S3aJIwkyIlSZd8yAE5Ms" version="22.1.11" type="github">
   <diagram name="第 1 页" id="uKd0gvcI_EXNXb9xkZMl">
-    <mxGraphModel dx="1493" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,8 +44,13 @@
         <mxCell id="5hXS_3930Pt7SvAohvSX-22" value="创建一次新构建，往build表写入数据，将状态更新为等待构建" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="292.75" y="400" width="176" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UcOcCSCP4X42r92XeVJ2-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5hXS_3930Pt7SvAohvSX-24" target="UcOcCSCP4X42r92XeVJ2-7">
+        <mxCell id="UcOcCSCP4X42r92XeVJ2-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5hXS_3930Pt7SvAohvSX-24" target="UcOcCSCP4X42r92XeVJ2-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5hXS_3930Pt7SvAohvSX-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="578.625" y="550" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="5hXS_3930Pt7SvAohvSX-24" value="调用jenkins执行job" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="292.75" y="520" width="177.25" height="60" as="geometry" />
@@ -81,18 +86,18 @@
         <mxCell id="5hXS_3930Pt7SvAohvSX-33" value="构建完成后，更新build表，将状态设置为构建成功" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="291.25" y="1140" width="177.25" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UcOcCSCP4X42r92XeVJ2-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5hXS_3930Pt7SvAohvSX-36" target="UcOcCSCP4X42r92XeVJ2-3">
+        <mxCell id="UcOcCSCP4X42r92XeVJ2-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5hXS_3930Pt7SvAohvSX-36" target="UcOcCSCP4X42r92XeVJ2-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UcOcCSCP4X42r92XeVJ2-5" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UcOcCSCP4X42r92XeVJ2-4">
+        <mxCell id="UcOcCSCP4X42r92XeVJ2-5" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="UcOcCSCP4X42r92XeVJ2-4" vertex="1" connectable="0">
           <mxGeometry x="-0.1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UcOcCSCP4X42r92XeVJ2-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5hXS_3930Pt7SvAohvSX-36" target="UcOcCSCP4X42r92XeVJ2-14">
+        <mxCell id="UcOcCSCP4X42r92XeVJ2-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5hXS_3930Pt7SvAohvSX-36" target="UcOcCSCP4X42r92XeVJ2-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UcOcCSCP4X42r92XeVJ2-16" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UcOcCSCP4X42r92XeVJ2-15">
+        <mxCell id="UcOcCSCP4X42r92XeVJ2-16" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="UcOcCSCP4X42r92XeVJ2-15" vertex="1" connectable="0">
           <mxGeometry x="-0.0118" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -100,62 +105,62 @@
         <mxCell id="5hXS_3930Pt7SvAohvSX-36" value="是否失败" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="1010" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UcOcCSCP4X42r92XeVJ2-3" value="构建失败，更新build表，将状态设置为构建失败" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="UcOcCSCP4X42r92XeVJ2-3" value="构建失败，更新build表，将状态设置为构建失败" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="570" y="1150" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UcOcCSCP4X42r92XeVJ2-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UcOcCSCP4X42r92XeVJ2-7" target="UcOcCSCP4X42r92XeVJ2-11">
+        <mxCell id="UcOcCSCP4X42r92XeVJ2-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="UcOcCSCP4X42r92XeVJ2-7" target="UcOcCSCP4X42r92XeVJ2-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UcOcCSCP4X42r92XeVJ2-13" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UcOcCSCP4X42r92XeVJ2-12">
+        <mxCell id="UcOcCSCP4X42r92XeVJ2-13" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="UcOcCSCP4X42r92XeVJ2-12" vertex="1" connectable="0">
           <mxGeometry x="-0.0242" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UcOcCSCP4X42r92XeVJ2-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UcOcCSCP4X42r92XeVJ2-7" target="UcOcCSCP4X42r92XeVJ2-22">
+        <mxCell id="UcOcCSCP4X42r92XeVJ2-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="UcOcCSCP4X42r92XeVJ2-7" target="UcOcCSCP4X42r92XeVJ2-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UcOcCSCP4X42r92XeVJ2-25" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UcOcCSCP4X42r92XeVJ2-23">
+        <mxCell id="UcOcCSCP4X42r92XeVJ2-25" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="UcOcCSCP4X42r92XeVJ2-23" vertex="1" connectable="0">
           <mxGeometry x="-0.1728" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UcOcCSCP4X42r92XeVJ2-7" value="发起构建是否成功" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="UcOcCSCP4X42r92XeVJ2-7" value="发起构建是否成功" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="292.75" y="640" width="177.25" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UcOcCSCP4X42r92XeVJ2-11" value="构建失败，更新build表，将状态设置为构建失败" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="UcOcCSCP4X42r92XeVJ2-11" value="构建失败，更新build表，将状态设置为构建失败" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="578.625" y="640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UcOcCSCP4X42r92XeVJ2-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UcOcCSCP4X42r92XeVJ2-14" target="5hXS_3930Pt7SvAohvSX-26">
+        <mxCell id="UcOcCSCP4X42r92XeVJ2-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="UcOcCSCP4X42r92XeVJ2-14" target="5hXS_3930Pt7SvAohvSX-26" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="850" y="910" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UcOcCSCP4X42r92XeVJ2-18" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UcOcCSCP4X42r92XeVJ2-17">
+        <mxCell id="UcOcCSCP4X42r92XeVJ2-18" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="UcOcCSCP4X42r92XeVJ2-17" vertex="1" connectable="0">
           <mxGeometry x="0.1542" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UcOcCSCP4X42r92XeVJ2-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UcOcCSCP4X42r92XeVJ2-14" target="UcOcCSCP4X42r92XeVJ2-3">
+        <mxCell id="UcOcCSCP4X42r92XeVJ2-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="UcOcCSCP4X42r92XeVJ2-14" target="UcOcCSCP4X42r92XeVJ2-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="855" y="1180" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UcOcCSCP4X42r92XeVJ2-21" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UcOcCSCP4X42r92XeVJ2-20">
+        <mxCell id="UcOcCSCP4X42r92XeVJ2-21" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="UcOcCSCP4X42r92XeVJ2-20" vertex="1" connectable="0">
           <mxGeometry x="-0.702" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UcOcCSCP4X42r92XeVJ2-14" value="30min是否超时" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="UcOcCSCP4X42r92XeVJ2-14" value="30min是否超时" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="795" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UcOcCSCP4X42r92XeVJ2-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UcOcCSCP4X42r92XeVJ2-22" target="5hXS_3930Pt7SvAohvSX-26">
+        <mxCell id="UcOcCSCP4X42r92XeVJ2-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="UcOcCSCP4X42r92XeVJ2-22" target="5hXS_3930Pt7SvAohvSX-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UcOcCSCP4X42r92XeVJ2-22" value="更新build表，将状态设置为构建中" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="UcOcCSCP4X42r92XeVJ2-22" value="更新build表，将状态设置为构建中，将jenkinsId写入到build表" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="292.56" y="760" width="176.38" height="60" as="geometry" />
         </mxCell>
       </root>
