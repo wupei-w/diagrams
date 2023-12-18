@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-18T12:07:55.419Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="3TOEtwBojb5cIC6rI8sF" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-18T12:08:00.448Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="suyJhH1fZEohglHnaXXT" version="22.1.11" type="github">
   <diagram name="第 1 页" id="uKd0gvcI_EXNXb9xkZMl">
     <mxGraphModel dx="1975" dy="1091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -131,7 +131,7 @@
             <mxPoint x="993.2142857142858" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-4" value="从build表获取出所有非终态（构建成功、失败、取消构建）build.status != SUCCESS&lt;br&gt;build.status != FAILURE&lt;br&gt;build.status != FINISH&lt;br&gt;的记录" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-4" value="从build表获取出所有非终态（构建成功、失败、取消构建）&lt;br&gt;build.status != SUCCESS&lt;br&gt;build.status != FAILURE&lt;br&gt;build.status != FINISH&lt;br&gt;的记录" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="885" y="470" width="214.75" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-5" value="构建完成后，通知构建人" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
