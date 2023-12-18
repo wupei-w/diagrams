@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-18T11:22:35.841Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="S3aJIwkyIlSZd8yAE5Ms" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-18T11:53:53.420Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="MKOqiFsSv0g2lXbGa-HU" version="22.1.11" type="github">
   <diagram name="第 1 页" id="uKd0gvcI_EXNXb9xkZMl">
     <mxGraphModel dx="2074" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -162,6 +162,86 @@
         </mxCell>
         <mxCell id="UcOcCSCP4X42r92XeVJ2-22" value="更新build表，将状态设置为构建中，将jenkinsId写入到build表" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="292.56" y="760" width="176.38" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q_nmdHOqDNdYp2mdQ6Tv-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="993.2142857142858" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-4" value="5s从build表获取出所有非终态（构建成功、失败、取消构建）build.status != SUCCESS&lt;br&gt;build.status != RUNNING&lt;br&gt;build.status != CANCEL&lt;br&gt;的记录" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="885" y="330" width="214.75" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-5" value="构建完成后，通知构建人" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="904.63" y="730" width="177.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q_nmdHOqDNdYp2mdQ6Tv-9" target="Q_nmdHOqDNdYp2mdQ6Tv-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-7" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q_nmdHOqDNdYp2mdQ6Tv-6">
+          <mxGeometry x="-0.1549" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-8" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q_nmdHOqDNdYp2mdQ6Tv-9" target="Q_nmdHOqDNdYp2mdQ6Tv-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-9" value="构建是否成功" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="470" width="185" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q_nmdHOqDNdYp2mdQ6Tv-11" target="Q_nmdHOqDNdYp2mdQ6Tv-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-11" value="构建完成后，更新build表，将状态设置为构建成功" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="903.75" y="610" width="177.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q_nmdHOqDNdYp2mdQ6Tv-16" target="Q_nmdHOqDNdYp2mdQ6Tv-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-13" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q_nmdHOqDNdYp2mdQ6Tv-12">
+          <mxGeometry x="-0.1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q_nmdHOqDNdYp2mdQ6Tv-16" target="Q_nmdHOqDNdYp2mdQ6Tv-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-15" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q_nmdHOqDNdYp2mdQ6Tv-14">
+          <mxGeometry x="-0.0118" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-16" value="是否失败" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1192.5" y="480" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-17" value="构建失败，更新build表，将状态设置为构建失败" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1182.5" y="620" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q_nmdHOqDNdYp2mdQ6Tv-22" target="Q_nmdHOqDNdYp2mdQ6Tv-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1462.5" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-19" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q_nmdHOqDNdYp2mdQ6Tv-18">
+          <mxGeometry x="0.1542" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q_nmdHOqDNdYp2mdQ6Tv-22" target="Q_nmdHOqDNdYp2mdQ6Tv-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1467.5" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-21" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q_nmdHOqDNdYp2mdQ6Tv-20">
+          <mxGeometry x="-0.702" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_nmdHOqDNdYp2mdQ6Tv-22" value="30min是否超时" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1407.5" y="480" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
