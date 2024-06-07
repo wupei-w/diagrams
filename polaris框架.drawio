@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T07:00:04.337Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="G2eV6CkiPgOTe22nAtkc" version="24.4.15" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-07T07:02:16.821Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="k1UtfTg2cBOu0-5d0ncq" version="24.4.15" type="github">
   <diagram name="第 1 页" id="zJNLE8bN9wBG5qHUzsNH">
-    <mxGraphModel dx="2901" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2501" dy="996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -69,7 +69,12 @@
           <mxGeometry x="-33" y="320" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mmYLngL-6dQX-zCMXxUM-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mmYLngL-6dQX-zCMXxUM-23" target="mmYLngL-6dQX-zCMXxUM-80">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="220" />
+              <mxPoint x="150" y="270" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="mmYLngL-6dQX-zCMXxUM-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mmYLngL-6dQX-zCMXxUM-23" target="mmYLngL-6dQX-zCMXxUM-42">
           <mxGeometry relative="1" as="geometry" />
@@ -246,11 +251,26 @@
         <mxCell id="mmYLngL-6dQX-zCMXxUM-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mmYLngL-6dQX-zCMXxUM-79" target="mmYLngL-6dQX-zCMXxUM-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="mmYLngL-6dQX-zCMXxUM-105" value="获取事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mmYLngL-6dQX-zCMXxUM-84">
+          <mxGeometry x="0.1336" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mmYLngL-6dQX-zCMXxUM-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mmYLngL-6dQX-zCMXxUM-79" target="mmYLngL-6dQX-zCMXxUM-23">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="180" />
+              <mxPoint x="150" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mmYLngL-6dQX-zCMXxUM-104" value="存储事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mmYLngL-6dQX-zCMXxUM-87">
+          <mxGeometry x="-0.4682" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="mmYLngL-6dQX-zCMXxUM-79" value="mysql" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="187" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mmYLngL-6dQX-zCMXxUM-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mmYLngL-6dQX-zCMXxUM-80" target="mmYLngL-6dQX-zCMXxUM-16">
           <mxGeometry relative="1" as="geometry" />
@@ -264,7 +284,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mmYLngL-6dQX-zCMXxUM-80" value="mongo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="187" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mmYLngL-6dQX-zCMXxUM-92" value="" style="rounded=0;whiteSpace=wrap;html=1;direction=south;fillColor=#E8FCE7;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-760" y="20" width="550" height="230" as="geometry" />
