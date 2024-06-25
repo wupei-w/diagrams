@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-25T09:07:23.338Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="mc_lfvnrHe6ZxW4wNAfQ" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-25T09:09:38.462Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="rAyv-3zSl06tL-q5N9y4" version="24.5.5" type="github">
   <diagram name="第 1 页" id="zJNLE8bN9wBG5qHUzsNH">
     <mxGraphModel dx="2837" dy="2262" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -492,7 +492,7 @@
         </mxCell>
         <mxCell id="a-k5ZQnK_QjZlKG4vjBj-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#99CCFF;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410" y="-20" as="sourcePoint" />
+            <mxPoint x="350" y="-20" as="sourcePoint" />
             <mxPoint x="-140" y="-20" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-130" y="-20" />
@@ -504,8 +504,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a-k5ZQnK_QjZlKG4vjBj-99" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;模块说明&lt;/h1&gt;&lt;p&gt;graph：数据中转模块，负责数据的存储和查询&lt;/p&gt;&lt;p&gt;polaris-agent：idc环境内节点数据采集器&lt;/p&gt;&lt;p&gt;iot-agent：iot设备数据采集器&lt;/p&gt;&lt;p&gt;transfer：k8s数据采集模块&lt;br&gt;&lt;/p&gt;&lt;p&gt;alerter：告警模块&lt;/p&gt;&lt;p&gt;controller：配置管理控制下发模块&lt;/p&gt;&lt;p&gt;scraper：端口探测及设备探活模块&lt;/p&gt;&lt;p&gt;jmx-exporter：jxm数据采集模块&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;bot：群机器人告警通知模块&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;prometheus-proxy：prometheus语法转换模块&lt;/p&gt;&lt;div&gt;influx-proxy：grafana获取influxdb数据模块&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;datasource_proxy：其他数据源查询模块，目前由中间件负责&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="950" y="230" width="340" height="380" as="geometry" />
+        <mxCell id="a-k5ZQnK_QjZlKG4vjBj-99" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;模块说明&lt;/h1&gt;&lt;p&gt;graph：数据中转模块，负责数据的存储和查询&lt;/p&gt;&lt;p&gt;polaris-agent：idc环境内节点数据采集模块&lt;/p&gt;&lt;p&gt;iot-agent：iot设备数据采集模块&lt;/p&gt;&lt;p&gt;transfer：k8s数据采集模块&lt;br&gt;&lt;/p&gt;&lt;p&gt;alerter：告警模块&lt;/p&gt;&lt;p&gt;controller：配置管理控制下发模块&lt;/p&gt;&lt;p&gt;scraper：端口探测及设备探活模块&lt;/p&gt;&lt;p&gt;jmx-exporter：jxm数据采集模块&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;bot：群机器人告警通知模块&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;prometheus-proxy：prometheus语法转换模块&lt;/p&gt;&lt;div&gt;influx-proxy：grafana获取influxdb数据模块&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;datasource_proxy：其他数据源查询模块，目前由中间件负责&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;dashboard：web界面模块&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;datastore：冷备基础数据模块&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="950" y="220" width="340" height="480" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
