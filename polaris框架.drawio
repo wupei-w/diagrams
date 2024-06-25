@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-25T08:59:29.029Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="xMfdtVtqb5oWRogJSzaH" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-25T09:05:14.841Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="mOuxJkkScxPXFHne-5p0" version="24.5.5" type="github">
   <diagram name="第 1 页" id="zJNLE8bN9wBG5qHUzsNH">
-    <mxGraphModel dx="3089" dy="2399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2837" dy="2262" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -503,6 +503,9 @@
           <mxGeometry x="0.2635" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="a-k5ZQnK_QjZlKG4vjBj-99" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;模块说明&lt;/h1&gt;&lt;p&gt;graph：数据中转模块，负责数据的存储和查询&lt;/p&gt;&lt;p&gt;polaris-agent：idc环境内节点数据采集器&lt;/p&gt;&lt;p&gt;iot-agent：iot设备数据采集器&lt;/p&gt;&lt;p&gt;transfer：k8s数据采集模块&lt;br&gt;&lt;/p&gt;&lt;p&gt;alerter：告警模块&lt;/p&gt;&lt;p&gt;controller：配置管理控制下发模块&lt;/p&gt;&lt;p&gt;scraper：端口探测及设备探活模块&lt;/p&gt;&lt;p&gt;jmx-exporter：jxm数据采集模块&lt;/p&gt;&lt;p&gt;prometheus-proxy：prometheus语法转换模块&lt;/p&gt;&lt;p&gt;bot：群机器人告警通知模块&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="950" y="230" width="310" height="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
