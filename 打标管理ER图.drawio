@@ -59,7 +59,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vfj-QrY9LV4KviRlO9dK-25" value="更新标签组状态为禁用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="450" width="140" height="60" as="geometry" />
+          <mxGeometry x="660" y="460" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vfj-QrY9LV4KviRlO9dK-28" value="判断请求过来的标签在库里都存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="520" width="320" height="80" as="geometry" />
