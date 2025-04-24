@@ -27,10 +27,22 @@
           <mxGeometry x="660" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vfj-QrY9LV4KviRlO9dK-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vfj-QrY9LV4KviRlO9dK-15" target="vfj-QrY9LV4KviRlO9dK-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vfj-QrY9LV4KviRlO9dK-32" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vfj-QrY9LV4KviRlO9dK-26">
+          <mxGeometry x="-0.199" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vfj-QrY9LV4KviRlO9dK-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vfj-QrY9LV4KviRlO9dK-15" target="vfj-QrY9LV4KviRlO9dK-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vfj-QrY9LV4KviRlO9dK-27" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vfj-QrY9LV4KviRlO9dK-26">
-          <mxGeometry x="-0.0312" relative="1" as="geometry">
+        <mxCell id="vfj-QrY9LV4KviRlO9dK-30" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vfj-QrY9LV4KviRlO9dK-29">
+          <mxGeometry x="-0.0663" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -43,8 +55,18 @@
         <mxCell id="vfj-QrY9LV4KviRlO9dK-16" value="根据标签组id从tag_group表获取次标签组数据以及从tag表获取对应的所有标签数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="237.5" y="220" width="325" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="vfj-QrY9LV4KviRlO9dK-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vfj-QrY9LV4KviRlO9dK-25" target="vfj-QrY9LV4KviRlO9dK-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="vfj-QrY9LV4KviRlO9dK-25" value="更新标签组状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="670" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vfj-QrY9LV4KviRlO9dK-28" value="判断请求过来的标签在库里都存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="520" width="320" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
