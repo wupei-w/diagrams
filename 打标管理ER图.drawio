@@ -26,11 +26,25 @@
         <mxCell id="vfj-QrY9LV4KviRlO9dK-4" value="返回参数错误" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vfj-QrY9LV4KviRlO9dK-15" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="360" width="320" height="80" as="geometry" />
+        <mxCell id="vfj-QrY9LV4KviRlO9dK-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vfj-QrY9LV4KviRlO9dK-15" target="vfj-QrY9LV4KviRlO9dK-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vfj-QrY9LV4KviRlO9dK-27" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vfj-QrY9LV4KviRlO9dK-26">
+          <mxGeometry x="-0.0312" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vfj-QrY9LV4KviRlO9dK-15" value="请求的标签组状态是否和库里的是一致" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="370" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vfj-QrY9LV4KviRlO9dK-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vfj-QrY9LV4KviRlO9dK-16" target="vfj-QrY9LV4KviRlO9dK-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vfj-QrY9LV4KviRlO9dK-16" value="根据标签组id从tag_group表获取次标签组数据以及从tag表获取对应的所有标签数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="237.5" y="220" width="325" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vfj-QrY9LV4KviRlO9dK-25" value="更新标签组状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="380" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
