@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1041" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1388" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,11 +12,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vfj-QrY9LV4KviRlO9dK-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vfj-QrY9LV4KviRlO9dK-2" target="vfj-QrY9LV4KviRlO9dK-9">
+        <mxCell id="vfj-QrY9LV4KviRlO9dK-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vfj-QrY9LV4KviRlO9dK-2" target="vfj-QrY9LV4KviRlO9dK-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vfj-QrY9LV4KviRlO9dK-11" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vfj-QrY9LV4KviRlO9dK-10">
-          <mxGeometry x="-0.1933" relative="1" as="geometry">
+        <mxCell id="vfj-QrY9LV4KviRlO9dK-18" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vfj-QrY9LV4KviRlO9dK-17">
+          <mxGeometry x="-0.1457" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -26,14 +26,11 @@
         <mxCell id="vfj-QrY9LV4KviRlO9dK-4" value="返回参数错误" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="660" y="90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vfj-QrY9LV4KviRlO9dK-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vfj-QrY9LV4KviRlO9dK-9" target="vfj-QrY9LV4KviRlO9dK-12">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="vfj-QrY9LV4KviRlO9dK-15" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="320" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vfj-QrY9LV4KviRlO9dK-9" value="标签数量是否大于等于1 &amp;amp;&amp;amp; 小于等于50" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="220" width="320" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="vfj-QrY9LV4KviRlO9dK-12" value="返回参数错误" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="230" width="120" height="60" as="geometry" />
+        <mxCell id="vfj-QrY9LV4KviRlO9dK-16" value="根据标签组id从tag_group表获取次标签组数据以及从tag表获取对应的所有标签数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="220" width="325" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
