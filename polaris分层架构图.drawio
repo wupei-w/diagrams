@@ -144,6 +144,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="2rTzAIaTju17xesEqHSP-36" value="查询数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2rTzAIaTju17xesEqHSP-26">
+          <mxGeometry x="-0.3343" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ItZwud2vc75NwTR2prj7-18" value="grafana" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="205" y="110" width="120" height="60" as="geometry" />
         </mxCell>
