@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.4">
   <diagram name="第 1 页" id="fY5CujeRPEhwM3bfNNjF">
-    <mxGraphModel dx="1061" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2082" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,7 +78,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2rTzAIaTju17xesEqHSP-23" value="查询数据/获取告警配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2rTzAIaTju17xesEqHSP-22">
+        <mxCell id="2rTzAIaTju17xesEqHSP-23" value="查询数据/获取告警配置/告警事件生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2rTzAIaTju17xesEqHSP-22">
           <mxGeometry x="0.1593" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -191,15 +191,19 @@
           <mxGeometry x="180" y="670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2rTzAIaTju17xesEqHSP-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2rTzAIaTju17xesEqHSP-39" target="2rTzAIaTju17xesEqHSP-5">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="920" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="2rTzAIaTju17xesEqHSP-41" value="查询数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2rTzAIaTju17xesEqHSP-40">
-          <mxGeometry x="0.0517" y="-1" relative="1" as="geometry">
+        <mxCell id="2rTzAIaTju17xesEqHSP-46" value="查询数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2rTzAIaTju17xesEqHSP-40">
+          <mxGeometry x="0.3472" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2rTzAIaTju17xesEqHSP-39" value="influx-proxy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="180" y="890" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2rTzAIaTju17xesEqHSP-44" value="查询数据" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2rTzAIaTju17xesEqHSP-42" target="2rTzAIaTju17xesEqHSP-5">
           <mxGeometry relative="1" as="geometry">
