@@ -94,7 +94,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2rTzAIaTju17xesEqHSP-18" value="模板配置、父节点采集、告警配置同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2rTzAIaTju17xesEqHSP-17" vertex="1" connectable="0">
+        <mxCell id="2rTzAIaTju17xesEqHSP-18" value="模板配置、父节点采集、告警、图表配置同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2rTzAIaTju17xesEqHSP-17" vertex="1" connectable="0">
           <mxGeometry x="-0.009" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
