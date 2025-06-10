@@ -112,7 +112,7 @@
             <mxPoint x="740" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2rTzAIaTju17xesEqHSP-35" value="采集、告警、图表、自愈配置同步/查询数据/拉取告警事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2rTzAIaTju17xesEqHSP-34" vertex="1" connectable="0">
+        <mxCell id="2rTzAIaTju17xesEqHSP-35" value="采集、告警、图表配置同步/查询数据/拉取告警事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2rTzAIaTju17xesEqHSP-34" vertex="1" connectable="0">
           <mxGeometry x="-0.3327" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
